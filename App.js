@@ -20,11 +20,11 @@ const DATA = [
 ];
 
 
-class App extends React.Component {
+export default class App extends React.Component {
   renderCard(item) {
     return (
       <Text>{item.text}</Text>
-    )
+    );
   }
 
   render() {
